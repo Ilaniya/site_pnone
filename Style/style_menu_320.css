@@ -1,0 +1,204 @@
+@import url(reset.css);
+
+
+
+/*
+
+.header__nav_MenuVert320__MainList {
+     list-style: none;
+     width: 252px;
+     height: 265px;
+     margin: 0 auto;
+}
+
+.header__nav_MenuVert320__MainList a {
+     font-size: 24px;
+     font-family: "League Gothic";
+     color: rgb(255, 255, 255);
+     text-transform: uppercase;
+     line-height: 1.75;
+     text-align: center;
+     text-decoration: none;
+     display: block;
+     width: 248px;
+     margin: 0 auto;
+}
+
+.header__nav_MenuVert320__MainList > li {
+     position: relative;
+     display: inline-block;
+     
+     height: 40px;
+
+}
+
+.header__nav__homeVert320 {
+     display: block;
+     width: 248px;
+     margin: 0 auto;
+     box-sizing: border-box;
+}
+
+.header__nav__homeVert320:hover {
+     text-decoration: underline;
+     text-decoration-color: #edbfff;
+}
+
+.header__nav_MenuVert320__MainList .header__nav_MenuVert320__submenu {
+     display: none;
+     width: 252px;
+     height: 265px;
+     margin-left: -2px;
+
+}
+
+.header__nav_MenuVert320__MainList .header__nav_MenuVert320__submenu a {
+     text-decoration: none;
+     font-size: 24px;
+     font-family: "League Gothic";
+     color: rgb(255, 255, 255);
+     text-transform: uppercase;
+     line-height: 1.75;
+     text-align: center;
+     border-radius: 5px;
+     margin-top: 1px;
+     
+}
+
+.header__nav_MenuVert320__submenu {
+     list-style: none;
+     display: flex;
+     flex-flow: column;
+     justify-content: space-around;
+     align-items: stretch;
+     align-content: stretch;
+
+}
+
+.header__nav_MenuVert320__submenu a:hover {
+     text-decoration: underline;
+     text-decoration-color: #edbfff;
+}
+
+.header__nav__homeVert320 a:hover {
+     text-decoration: underline;
+     text-decoration-color: #edbfff;
+}
+
+.header__nav_MenuVert320__MainList > li:hover .header__nav_MenuVert320__submenu {
+     display: block;
+}
+
+.header__nav_MenuVert320 {
+     display: none;
+}
+*/
+
+.header__nav_MenuVert320__MainList {
+     list-style: none;
+     width: 252px;
+     height: 265px;
+     margin: 0 auto;
+}
+
+.header__nav_MenuVert320__MainList a {
+     font-size: 24px;
+     font-family: "League Gothic";
+     color: rgb(255, 255, 255);
+     text-transform: uppercase;
+     line-height: 1.75;
+     text-align: center;
+     text-decoration: none;
+     display: block;
+     width: 248px;
+     margin: 0 auto;
+}
+
+.header__nav_MenuVert320__MainList > li {
+     position: relative;
+     display: inline-block;
+     /*     width: 252px;*/
+     height: 40px;
+/*     background-color: #3f3147;*/
+}
+
+.header__nav__homeVert320 {
+     display: block;
+     width: 248px;
+/*     background-color: #3f3147;*/
+/*     border-radius: 5px;*/
+     margin: 0 auto;
+/*     box-sizing: border-box;*/
+}
+
+.header__nav_MenuVert320__MainList .header__nav_MenuVert320__submenu {
+     display: none;
+     width: 252px;
+     height: 265px;
+     margin-left: -2px;
+
+}
+
+.header__nav_MenuVert320__MainList .header__nav_MenuVert320__submenu a {
+     font-size: 24px;
+     font-family: "League Gothic";
+     color: rgb(255, 255, 255);
+     text-transform: uppercase;
+     line-height: 1.75;
+     text-align: center;
+     background-color: #3e3146;
+     border-radius: 5px;
+     margin-top: 1px;
+}
+
+.header__nav_MenuVert320__submenu {
+     list-style: none;
+     display: flex;
+     flex-flow: column;
+     justify-content: space-around;
+     align-items: stretch;
+     align-content: stretch;
+}
+
+.header__nav_MenuVert320__submenu a:hover {
+/*     text-decoration: underline;*/
+     text-decoration-color: #edbfff;
+}
+
+.header__nav__homeVert320 a:hover {
+/*     text-decoration: underline;*/
+     text-decoration-color: #edbfff;
+}
+
+.header__nav_MenuVert320__MainList > li:hover .header__nav_MenuVert320__submenu {
+     display: block;
+}
+
+.header__nav_MenuVert320 {
+     display: none;
+}
+
+.active {
+    border-bottom: 2px solid #2b2231;
+/*
+     text-decoration-color: #edbfff!important;
+     background-color: 
+*/
+}
+
+
+
+@media screen and (max-width: 525px) {
+     .header__nav_MenuVert320 {
+          display: block;
+          margin: 50px auto 0;
+     }
+
+
+
+
+
+
+     
+
+

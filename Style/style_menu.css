@@ -1,0 +1,119 @@
+@import url(reset.css);
+
+
+
+
+.header__nav_MenuVert__MainList {
+     list-style: none;
+     width: 252px;
+     height: 265px;
+     margin: 0 auto;
+}
+
+.header__nav_MenuVert__MainList a {
+     font-size: 24px;
+     font-family: "League Gothic";
+     color: rgb(255, 255, 255);
+     text-transform: uppercase;
+     line-height: 1.75;
+     text-align: center;
+     text-decoration: none;
+     display: block;
+     width: 248px;
+     margin: 0 auto;
+}
+
+.header__nav_MenuVert__MainList > li {
+     position: relative;
+     display: inline-block;
+     /*     width: 252px;*/
+     height: 40px;
+     background-color: #3f3147;
+}
+
+.header__nav__homeVert {
+     display: block;
+     width: 248px;
+     background-color: #3f3147;
+     border-radius: 5px;
+     margin: 0 auto;
+     box-sizing: border-box;
+}
+
+.header__nav_MenuVert__MainList .header__nav_MenuVert__submenu {
+     display: none;
+     width: 252px;
+     height: 265px;
+     margin-left: -2px;
+
+}
+
+.header__nav_MenuVert__MainList .header__nav_MenuVert__submenu a {
+     font-size: 24px;
+     font-family: "League Gothic";
+     color: rgb(255, 255, 255);
+     text-transform: uppercase;
+     line-height: 1.75;
+     text-align: center;
+     background-color: #3e3146;
+     border-radius: 5px;
+     margin-top: 1px;
+}
+
+.header__nav_MenuVert__submenu {
+     list-style: none;
+     display: flex;
+     flex-flow: column;
+     justify-content: space-around;
+     align-items: stretch;
+     align-content: stretch;
+}
+
+.header__nav_MenuVert__submenu a:hover {
+     text-decoration: underline;
+     text-decoration-color: #edbfff;
+}
+
+.header__nav__homeVert a:hover {
+     text-decoration: underline;
+     text-decoration-color: #edbfff;
+}
+
+.header__nav_MenuVert__MainList > li:hover .header__nav_MenuVert__submenu {
+     display: block;
+}
+
+.header__nav_MenuVert {
+     display: none;
+}
+
+@media screen and (max-width: 820px) {
+     .header__nav_MenuVert {
+          display: block;
+          margin: 30px auto 0;
+     }
+     .header-container {
+          margin: 0 auto;
+          display: flex;
+          justify-content: center;
+          align-items: baseline;
+          flex-flow: column wrap;
+     }
+}
+
+@media screen and (max-width: 525px) {
+     .header__nav_MenuVert {
+          display: none;
+     }
+
+
+
+
+
+     /*
+.active {
+     text-decoration: underline!important;
+     text-decoration-color: #edbfff!important;
+     background-color: #2b2231;
+}
+*/
